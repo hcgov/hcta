@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>HCTA - Routes</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* same styles as index.html */
+:root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4c0;--accent1:#7c3aed;--accent2:#ef476f;--glass: rgba(255,255,255,0.04);--radius:14px;font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,var(--bg) 0%, #071028 100%);color:#e6eef8;min-height:100vh}
+.container{max-width:960px;margin:32px auto;padding:24px}
+header{display:flex;align-items:center;gap:16px}
+.logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent1),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;box-shadow:0 6px 18px rgba(124,58,237,0.18);}
+h1{margin:0;font-size:28px}
+p.lead{color:var(--muted);margin-top:6px}
+nav{display:flex;gap:12px;margin-top:8px}
+nav a{color:var(--muted);text-decoration:none;padding:8px;border-radius:8px}
+nav a:hover{color:white;background:rgba(255,255,255,0.02)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.small{padding:12px;border-radius:10px;background:rgba(255,255,255,0.02)}
+footer{margin-top:28px;padding:18px;color:var(--muted);font-size:14px;border-top:1px solid rgba(255,255,255,0.02);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+@media(max-width:880px){.grid{grid-template-columns:repeat(1,1fr)}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo">HCTA</div>
+<div>
+<h1>HCTA Routes</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="routes.html">Routes</a>
+<a href="dash.html">Dash Card</a>
+<a href="news.html">News</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<section style="margin-top:24px">
+<h2>Routes & Network</h2>
+<p class="muted">HCTA runs frequent services across Hackpines. Here are the main lines:</p>
+<!----ONLY REMOVE COMMENT WHEN LINES ARE FINALISED!
+<div class="grid">
+<div class="small"><strong>Line A — Pines Loop</strong><div class="muted">Central Hub ↔ East Pines ↔ North Outlook</div></div>
+<div class="small"><strong>Line B — Shoreline</strong><div class="muted">Central Hub ↔ Shorefront ↔ Dockside</div></div>
+<div class="small"><strong>Line C — Campus Shuttle</strong><div class="muted">Hackpines Campus Circle (frequent)</div></div>
+</div>
+-->
+</section>
+<footer>
+<div>© HCTA - Hack Club Transit Authority • Hackpines region</div>
+<div class="muted">Transit Card: <strong>Dash Card</strong> · Fares: <strong>Free</strong> network-wide</div>
+</footer>
+</div>
+</body>
+</html>
